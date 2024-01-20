@@ -23,10 +23,10 @@ from connect import create_connection
 from math import radians, cos, sin, sqrt, atan2
 import TelegramBot
 import Message
+from Segreto import BOT_TOKEN
 import os
 
 # (Le variabili con identificatore in maiuscolo sono costanti)
-BOT_TOKEN = "" # Token assegnato da BotFather
 Bot = TelegramBot.TelegramBot(BOT_TOKEN) # Definisco il bot
 
 user_states = {} # Vedi esempio alla fine del file
